@@ -5,19 +5,25 @@ const web3 = new Web3(ganache.provider());// w is small in web3 coz it's an inst
 
 
 
-class Car{
-    park(){
-        return "stopped";
-    }
-    drive(){
-        return "vroom";
-    }
-}
+// class Car{
+//     park(){
+//         return "stopped";
+//     }
+//     drive(){
+//         return "vroom";
+//     }
+// }
 
-describe("Car",()=>{
-    it('can park',()=>{
-        const car=new Car();
-        asset.equal(car.park(),"stopped");
-        asset.equal(car.drive(),"vroom");
-    })
-});
+// let car;
+// beforeEach(()=>{
+//     car=new Car();
+// });
+
+// describe("Car",()=>{
+//     it('can park',()=>{
+//         asset.equal(car.park(),"stopped");
+//     })
+//     it('can drive',()=>{
+//         asset.equal(car.drive(),"vroom");
+//     });
+// });
